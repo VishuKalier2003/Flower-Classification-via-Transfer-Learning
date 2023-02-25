@@ -7,4 +7,4 @@ and <b><i>Sunflower</i></b>.
 
 
 # ${\color{lightblue} Made \space By}$
-Vishu Kalier
+<b><i>Vishu Kalier</i></b>
