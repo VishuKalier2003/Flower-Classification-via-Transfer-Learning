@@ -13,3 +13,6 @@ developed in the project.
 | 2. | <b><i>Classify.ipynb | This notebook provides the codes and the intuitions regarding improving the accuracy of the model using <b><i>Transfer Learning</i></b>. The pre-trained model is taken from the Tensorflow Hub website | <b><i>Complete :white_check_mark: |
 | 3. | <b><i>ImageNetLabels.txt | The text files containes all the 1000 classes defined and classified in the pre-trained model | <b><i>Complete :white_check_mark: |
 
+
+# ${\color{lightblue} Made \space By}$
+  <b><i>Vishu Kalier
