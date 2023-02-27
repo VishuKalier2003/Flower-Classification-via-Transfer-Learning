@@ -17,5 +17,12 @@
  - The model is also trained in many large datasets and so minimum wastage of parameters is needed.
 
 
+# ${\color{red} Approach}$
+  - I downloaded the pre-trained model from the Tensorflow hub website for the classification of flowers dataset into five categories.
+  - The downloaded model has the ability to classify into 1000 categories, not necessarily flowers. The classification is done by the softmax layer as the last hidden layer in the model.
+  - The weights and the kernels of all the layers except the last hidden layers are freezed (they are not trained). The softmax layers is changed and we introduce our own classification layer (here classifying into 5 categories).
+  - This makes the model run pretty fast, since it has many weights and kernels (non-trainable) which need not to be trained but they help improve the performance and fine-tuning of the model because the model currently has too many parameters.
+
+
 # ${\color{lightblue} Made \space By}$
  <b><i>Vishu Kalier
