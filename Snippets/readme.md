@@ -6,7 +6,7 @@ This folder provides a few code snippets which are used or are important for the
 having a look at all the notebooks provided in the <b><i> Model </i></b> folder. This folder is mostly for snippets and for someone who wants to get a quick overview of
 the working of the project and the approach.
 
-# ${\color{red} Snippet \space I}$
+<b><i> Snippet I </i></b>
 ```java
 IMAGE_SHAPE = (224, 224)
 Classifier = tf.keras.Sequential([
@@ -14,6 +14,7 @@ Classifier = tf.keras.Sequential([
     # The link is taken from tensorflow hub...
 ])
 ```
+The <b><i>IMAGE_SHAPE+(3,)</i></b> is used to add three new dimensions to the Image, since Image comprises of red, green adn blue filters (rgb) values.
 
 # ${\color{lightblue} Made \space By}$
 <b><i> Vishu Kalier
