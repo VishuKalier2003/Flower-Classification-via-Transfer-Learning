@@ -26,7 +26,12 @@ The Project explains the <b><i>Tranfer Learning</i></b> and the reasons Transfer
 
 | ${\color{red} Serial \space No. }$ | ${\color{red} Folder \space Name }$ | ${\color{red} Status }$ |
 |-|-|-|
-| 1. | Model | Completed :white_check_mark: |
+| 1. | Model | Completed :heavy_check_mark: |
+| 2. | Dataset | Completed :heavy_check_mark: |
+| 3. | Theoretical | In Progress :bookmark: |
+| 4. | Snippets | Completed :heavy_check_mark: |
+
+------
 
 # ${\color{lightblue} Made \space By}$
 <b><i>Vishu Kalier
