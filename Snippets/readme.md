@@ -39,7 +39,7 @@ ConvolutionalNeuralNetwork = tf.keras.Sequential([
 ])
 ```
 
-Training the network with pre-defined weights as per our use and need. We have five varieties of flowers, so we will use the dense layer with five output neurons.
+Training the network with pre-defined weights as per our use and need. We have <b><i>five varieties of flowers</i></b>, so we will use the dense layer with <b><i>five output neurons </i></b>.
 
 
 # ${\color{lightblue} Made \space By}$
