@@ -13,8 +13,12 @@ The folder substructure is defined as below
     |-->   Dataset                   => Folder containing the datasets
     |
     |-->   Theoretical               => Folder giving an insight about the approach
+    |         |
+    |         |-->  README.md        => Conceptual Explanation
+    |
+    |-->   Snippets                  => Folder for Code Snippets
               |
-              |-->  README.md        => Conceptual Explanation
+              |-->  README.md        => Code Snippets
     
 ------
 
