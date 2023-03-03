@@ -22,7 +22,11 @@ The folder substructure is defined as below
     
 ------
 
-The Project explains the <b><i>Tranfer Learning</i></b> and the reasons Transfer Learning is used to train <b><i>Convolutional Neural Networks</i></b>.
+The Project explains the <b><i>Tranfer Learning</i></b> and the reasons Transfer Learning is used to train <b><i>Convolutional Neural Networks</i></b>. The below table gives the progress and the status of various folders within the project.
+
+| ${\color{red} Serial \space No. }$ | ${\color{red} Folder \space Name }$ | ${\color{red} Status }$ |
+|-|-|-|
+| 1. | Model | Completed :white_check_mark: |
 
 # ${\color{lightblue} Made \space By}$
 <b><i>Vishu Kalier
