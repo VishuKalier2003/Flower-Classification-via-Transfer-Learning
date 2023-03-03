@@ -29,5 +29,26 @@ ModelWithoutSoftmax = hub.KerasLayer(FeatureExtractor, input_shape=(224, 224, 3)
 ```
 trainable false means we are <b><i>freezing this model</i></b> and this will not br trained further and the pre-defined weights will be used. Except for classification we have feature_vector which gives us the same model except the last layer, like we now have <b><i>no classes pre-defined</i></b> and we can define our own classes.
 
+
+<b><i> Snippet IV </i></b>
+```java
+UniqueFlowers = 5
+ConvolutionalNeuralNetwork = tf.keras.Sequential([
+    ModelWithoutSoftmax,
+    tf.keras.layers.Dense(UniqueFlowers)
+])
+```
+
+Training the network with pre-defined weights as per our use and need. We have five varieties of flowers, so we will use the dense layer with five output neurons.
+
+
 # ${\color{lightblue} Made \space By}$
 <b><i> Vishu Kalier
+    
+    
+    
+    
+    
+    
+    
+    
