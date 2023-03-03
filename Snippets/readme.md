@@ -14,7 +14,20 @@ Classifier = tf.keras.Sequential([
     # The link is taken from tensorflow hub...
 ])
 ```
-The <b><i>IMAGE_SHAPE+(3,)</i></b> is used to add three new dimensions to the Image, since Image comprises of red, green adn blue filters (rgb) values.
+The <b><i>IMAGE_SHAPE+(3,)</i></b> is used to create the Image of shape <b><i>IMAGE_SHAPE</b></i> with three color channels as the three new dimensions to the Image, since Image comprises of red, green and blue filters (rgb) values.
+
+<b><i> Snippet II </i></b>
+```java
+daisy[np.newaxis, ...].shape
+```
+Adding one more dimension, such that the <b><i>classifier does not take one Image and it takes set of Images so</i></b>, we create another dimension for the index.
+
+<b><i> Snippet III </i></b>
+```java
+eatureExtractor = "https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/feature_vector/5"
+ModelWithoutSoftmax = hub.KerasLayer(FeatureExtractor, input_shape=(224, 224, 3), trainable=False)
+```
+trainable false means we are <b><i>freezing this model</i></b> and this will not br trained further and the pre-defined weights will be used. Except for classification we have feature_vector which gives us the same model except the last layer, like we now have <b><i>no classes pre-defined</i></b> and we can define our own classes.
 
 # ${\color{lightblue} Made \space By}$
 <b><i> Vishu Kalier
