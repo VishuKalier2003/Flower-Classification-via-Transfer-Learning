@@ -7,7 +7,7 @@ having a look at all the notebooks provided in the <b><i> Model </i></b> folder.
 the working of the project and the approach.
 
 # ${\color{red} Snippet \space I}$
-```
+```java
 IMAGE_SHAPE = (224, 224)
 Classifier = tf.keras.Sequential([
     hub.KerasLayer("https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/5", input_shape=IMAGE_SHAPE+(3,))    
