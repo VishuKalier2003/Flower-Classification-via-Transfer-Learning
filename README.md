@@ -1,4 +1,4 @@
-# ${\color{lightblue}Flower \space Classification \space via \space Transfer \space Learning}$
+# $${\color{lightblue}Flower \space Classification \space via \space Transfer \space Learning}$$
 Flower Classification Model development via Transfer Learning (the transfer learning or pre-trained model is taken from <b><i>Tensorflow Hub</b></i>).
 The folder substructure is defined as below
 
